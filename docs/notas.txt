@@ -1,0 +1,55 @@
+wordpress.com blogs y pequeñas webs
+wordpress.org para webs grandes
+
+leer:
+-godaddy y wordpress
+-copia de seguridad
+
+Pasos para hacer una web con WP
+1.Encuentra un buen alojamiento web (hosting)
+2.Elige un nombre de dominio.
+3.Instala WordPress.
+4.Configura bien WordPress desde el principio.
+5.Personaliza el diseño de tu web.
+
+https://www.websitetooltester.com/es/crear-web-con-wordpress/
+
+Sitios como Themeforest y Templatemonster ofrecen montones de plantillas listas para ser usadas.
+Es bueno tener en cuenta lo siguiente:
+*¿Con qué frecuencia ha sido comprada esta plantilla? Cuantos más clientes tenga mejor será el soporte técnico para dicha plantilla. Echa un vistazo al registro de cambios.
+*Buscar opiniones: ¿Hay otros usuarios con quejas o problemas?
+*Adaptado para móvil: No compres una plantilla que no incluya optimización para dispositivos móviles.
+*Si no te comunicas bien en inglés pregunta si ofrecen apoyo en español.
+
+Plugs-in indispensables:
+*Yoast SEO - gratis, posicionamiento web.
+*TinyPNG-gratis, comprime img jpg y png sin perder calidad, mejora la vel web.
+*Akismet antispam
+*iThemes Security, anti ataques.
+*Contact form 7, Es un plugin que te permite hacer tus propios formularios y diseñarlos de una manera muy fácil con los campos que necesites, etc.
+*Simple Custom CSS plugin sencillo, fácil de usar y muy limpio, que nos permite añadir modificaciones de estilo mediante CSS.
+
+Plantillas:
+* GeneratePress
+* Betheme (buenas pero pesadas)
+* Metro Pro, manejando CSS se puede convertir en lo que se quiera.
+* Themeforest. Lo malo es que son «válidas para todo» son grandes, pesadas, se meten mucho con el Javascript interno del dashboard. Consumen muchos recursos.
+* Underscores, Es la plantilla «esqueleto» de Automattic, Es un tema sin ningún diseño, ya que es precisamente para maquetar todo el diseño a medida a partir de una estructura limpia y liviana, se añade Bootstrap, iconos y la funcionalidad que haga falta, en función de los requisitos y diseño del proyecto.
+* Fruitful, De las gratuitas, es una plantilla muy muy simple, para webs sin muchos requisitos y apariencia. Es ligera y mejorando su diseño puede quedar muy bien.
+* Roots y Handcrafted WP starter theme plantillas en blanco
+* Bridge: Una plantilla multipropósito con infinitas opciones de personalización y más de 200 demos para que puedas construir casi cualquier sitio web que necesites. Ofrece una carga rápida y multitud de estilos y efectos modernos para que tu proyecto luzca de la mejor manera. Una de las mejores plantillas que he trabajado.
+
+IMPORTANTE!
+***Migrar los correos empresariales de un hosting al nuevo proveedor
+https://hostingsaurio.com/como-migrar-correos-electronicos-de-un-servidor-a-otro/
+
+Como quitar "Hecho por WP" del footer
+https://www.hostinger.es/tutoriales/quitar-creado-wordpress-del-footer/
+
+Meta etiquetas
+https://es.ryte.com/wiki/Meta_Etiqueta#:~:text=Las%20meta%20etiquetas%20se%20codifican,%3D%20%22This%20is%20the%20description.
+https://support.google.com/webmasters/answer/79812?hl=es
+
+IDIOMAS
+https://www.hazunaweb.com/curso-de-html/idioma/#:~:text=Meta%20tag%20Language&text=La%20finalidad%20de%20esta%20etiqueta,est%C3%A1%20traducida%20en%20varias%20lenguas.
+

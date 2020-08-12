@@ -1,0 +1,34 @@
+TRANSFERENCIA DE DOMINIO
+
+***Godaddy 
+https://es.godaddy.com/help/transferir-mi-dominio-a-godaddy-1592
+1)Desbloquear el dominio en el actual proveedor
+2)Hacer la migracion al nuevo proveedor
+IMPORTANTE: Hacer estos pasos el mismo día para no perder el dominio.
+
+-------------------------------------------------------------------------------------
+CAMBIO DE DOMININO
+
+***Usar guiones en dominios
+Este es un fallo muy común que está directamente relacionado con querer añadir keywords en nuestro dominio pensando que así obtendremos una capacidad de posicionamiento inimaginable. Pues bien, hace relativamente poco Google sacó una actualización de su algoritmo en que los dominios con palabras clave dejaron de tener beneficios extra.
+
+Los dominios que tienen guiones por el simple hecho de añadir palabras clave generan desconfianza, porque si el contenido o lo que sea que se ofrezca es de calidad, no es necesario que intentes posicionar simplemente por el dominio. 
+Además, los casos de mayor éxito no son precisamente dominios con palabras clave, por ejemplo AMAZON, EBAY.
+
+Dificultad para dar la dirección con guión porque puede existir malos entendidos.
+
+***Pasos a seguir si se quiere cambiar de dominio
+1)Comprar el nuevo dominio
+2)Migrar todo el Sitio al nuevo servidor
+3)Inventario de todos los servicios conectados a la web por Redes Sociales (correos automaticos, firmas de correos, links externos, etc)
+4)Escanear sitio web con Screaming Frog a fin de obtener un listado completo de las urls del sitio antiguo. Con ese listado, tras la migración, podré comprobar que todas las urls antiguas se traducen a las nuevas. 
+5)Registro de dominio nuevo y redirección a antiguo durante un tiempo, es decir pago de dos dominios por lo menos por 1 año.
+6)Notificación a Google y los usuarios. Una vez teniendo claro que todo funciona bien, se notifica a Google del cambio de dirección y también a los usuarios. Google tarda al menos 6 semanas en cambiar tu nuevo dominio en los buscadores, lo que conlleva a una pérdida de tráfico en la web del 40% en esas 6 semanas.
+ (pasos: https://vicampuzano.com/cambiar-de-dominio-sin-perder-posicionamiento/) 
+
+***Dominios libres
+www.aditecaditivos.com
+www.aditecbolivia.com
+www.aditec.es      ????
+
+
