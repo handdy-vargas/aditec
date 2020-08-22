@@ -8,6 +8,7 @@ Large Desktops       ≥1200px*/
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
 .selector-for-some-widget 
 {
@@ -20,11 +21,6 @@ Large Desktops       ≥1200px*/
 }
 
 /*Inicio Menu*/
-.headerposicion
-{
- position:relative; 
- z-index:99;
-}
 .menu
 {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -173,14 +169,112 @@ Large Desktops       ≥1200px*/
   100%{margin-left: -300%;}
 }
 
+/* Contador */
+.counter
+{
+  text-align: center;
+  font-size: 100px;
+}
+
+@media (min-width: 768px) 
+{
+.header 
+{
+    background-color: rgb(212, 209, 209, 0.7);
+    padding-bottom: 1.5%; 
+    position: fixed; 
+    z-index:99;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.logo
+{
+  margin-top: 1%;
+  padding-left: 5%;
+}
+.navbar
+{
+  padding: 0%;
+}
+.menu
+{
+  margin-top: 3%;
+}
+.padmenu
+{
+  padding-right: 13%;
+}
+.padmenu2
+{
+  padding-right: 8%;
+}
+.submenuboxprod
+{
+  min-width: 625px;
+  padding:30%;
+  z-index: 99;
+}
+.submenuboxsev
+{
+  min-width: 125px;
+  padding:25%;
+}
+.nav-item
+{
+  border-top: 2px solid  #999999!important;
+}
+.navbar-nav>li>.dropdown-menu 
+  {
+    border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
+  }
+.dropdown-menuitem-hover a:hover 
+{
+  width: 100%;
+  background-color: rgba(212, 209, 209, 0);
+  border-top: 2px solid #0000FF;
+  color: #0000FF!important;
+}
+.dropdown-item-hover a:hover 
+  {
+    width: 15%;
+    background-color:white;
+    border-top: 1px solid #0000FF;
+    color: #0000FF!important;
+  }
+.dropdown-item-hoverb a:hover 
+  {
+    width: 10%;
+    background-color:white;
+    border-top: 1px solid #0000FF;
+    color: #0000FF!important;
+  }
+  .search
+  {
+    min-width: 120px;
+  }
+
+
 /*Productos*/
+.titulprod
+{
+  width: 100%;
+  text-align: center;
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: #006699;
+  font-size: 25px;
+}
 .productos
 {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  position: relative;
-
 }
 .paddcol
 {
@@ -260,95 +354,4 @@ Large Desktops       ≥1200px*/
   font-weight: bolder;
   font-size: 20px;
   padding: 16px 32px;
-}
-/* Contador */
-.counter
-{
-  text-align: center;
-  font-size: 100px;
-}
-
-@media (min-width: 768px) 
-{
-.search
-{
-  min-width: 120px;
-}
-.header 
-{
-    background-color: rgb(212, 209, 209, 0.7);
-    padding-bottom: 3%; 
-    position: fixed; 
-    z-index:99;
-    left: 0;
-    top: 0;
-    right: 0;
-}
-.logo
-{
-  margin-top: 3%;
-  padding-left: 5%;
-}
-.navbar
-{
-  padding: 0%;
-}
-.menu
-{
-  margin-top: 3%;
-}
-.padmenu
-{
-  padding-right: 13%;
-}
-.padmenu2
-{
-  padding-right: 8%;
-}
-.submenuboxprod
-  {
-    min-width: 625px;
-    padding:30%;
-    z-index: 99;
-  }
-  .submenuboxsev
-  {
-    min-width: 125px;
-    padding:25%;
-  }
-.nav-item
-{
-  border-top: 2px solid  #999999!important;
-}
-.navbar-nav>li>.dropdown-menu 
-  {
-    border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 0px solid #000000;
-  -webkit-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  }
-.dropdown-menuitem-hover a:hover 
-{
-  width: 100%;
-  background-color: rgba(212, 209, 209, 0);
-  border-top: 2px solid #0000FF;
-  color: #0000FF!important;
-}
-.dropdown-item-hover a:hover 
-  {
-    width: 15%;
-    background-color:white;
-    border-top: 1px solid #0000FF;
-    color: #0000FF!important;
-  }
-.dropdown-item-hoverb a:hover 
-  {
-    width: 10%;
-    background-color:white;
-    border-top: 1px solid #0000FF;
-    color: #0000FF!important;
-  }
 }
