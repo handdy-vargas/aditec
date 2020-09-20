@@ -172,7 +172,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   border: solid 1px #0000FF;;
   display: inline-block;
   position: relative;
-  border-radius: 50px;           
+  border-radius: 50px;
 }
 .search-box input[type="text"] 
 {
@@ -186,6 +186,8 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   box-sizing: border-box;
   border-radius: 50px;
   transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 0.5) 600ms;
+  z-index: 1;
+  cursor: pointer;
 }
 .search-box input[type="text"]:focus 
 {
@@ -200,6 +202,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   bottom: 13px;
   right: 10px;
   transition: bottom 300ms ease-out 800ms, right 300ms ease-out 800ms;
+  z-index:2;
 }
 .search-box input[type="text"]:focus + span:after, .search-box input[type="text"]:not(:placeholder-shown) + span:after 
 {
@@ -208,9 +211,11 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   right: 10px;
   opacity: 1;
   transition: top 300ms ease-out 1100ms, right 300ms ease-out 1100ms, opacity 300ms ease 1100ms;
+  z-index: 2;
 }
 .search-box span 
 {
+  cursor:res;
   width: 25px;
   height: 25px;
   display: flex;
@@ -220,6 +225,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   bottom: -5px; /* linea \ de la lupa antes del click */
   right: -7px;
   transition: bottom 300ms ease-out 300ms, right 300ms ease-out 300ms;
+  z-index: -1;
 }
 .search-box span:before, .search-box span:after 
 {
@@ -230,6 +236,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   border-left: solid 1px #0000FF;;
   position: absolute;
   transform: rotate(-45deg);
+  z-index: -1;
 }
 .search-box span:after 
 {
