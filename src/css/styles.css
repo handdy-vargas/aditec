@@ -16,10 +16,15 @@ Large Desktops       ≥1200px*/
   padding: 0;
   box-sizing: border-box;
 }
+html
+{
+  height: 100%;
+}
 body
 {
   margin: 0;
   padding: 0;
+  height: 100%;
   overflow-x: hidden;
 }
 .container-fluid
@@ -237,13 +242,13 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 /* Fin search box*/
 
 /*Slider*/
-.pepe
+.slide-row-height
 {
-  height: 100vh;
+  height: 100%;
 }
 .banner1,.banner2,.banner3,.banner4
 {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   left:0;
@@ -252,6 +257,8 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 .img-slide
 {
   width: 120%;
+  /* la altura fija hace el zoom feo */
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
