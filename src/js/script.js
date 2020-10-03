@@ -1,3 +1,4 @@
+// search
 'use strict';
 
 var searchBox = document.querySelectorAll('.search-box input[type="text"] + span');
@@ -8,21 +9,58 @@ searchBox.forEach(elm => {
   });
 });
 
+//contador
+addEventListener('DOMContentLoaded', () => 
+{
+  const contadores = document.querySelectorAll('.contador_cantidad')
+  const velocidad = 1000
 
-function count(){
-  var counter = { var: 0 };
-  TweenMax.to(counter, 3, {
-    var: 100, 
-    onUpdate: function () {
-      var number = Math.ceil(counter.var);
-      $('.counter').html(number);
-      if(number === counter.var){ count.kill(); }
-    },
-    onComplete: function(){
-      count();
-    },    
-    ease:Circ.easeOut
-  });
-}
+  const animarContadores = () => 
+  {
+    for(const contador of contadores)
+    {
+      const actualizar_contador = () =>
+      {
+        let cantidad_maxima = +contador.dataset.cantidadTotal,
+        valor_actual = +contador.innerText,
+        incremento = cantidad_maxima / velocidad
 
-//count();
+        if(valor_actual < cantidad_maxima)
+        {
+          contador.innerText = Math.ceil(valor_actual + incremento)
+          setTimeout(actualizar_contador,5)
+        }
+        else
+        {
+          contador.innerText = cantidad_maxima
+        }
+      }
+      actualizar_contador()
+    }
+  }
+  // IntersectionObserver
+  const mostrarContadores = elementos => 
+  {
+    elementos.forEach(elemento => 
+      {
+        if(elemento.isIntersecting)
+        {
+          elemento.target.classList.add('animar')
+          elemento.target.classList.remove('ocultar')
+          setTimeout(animarContadores, 300)
+        }
+      })
+  }
+  const observer = new IntersectionObserver(mostrarContadores, 
+    {
+      threshold: 0.75 //cuanto del atributo se ve en la pantalla va de 0 - 1 
+    })
+
+    const elementosHtml = document.querySelectorAll('.contador')
+    elementosHtml.forEach(elementoHtml =>
+      {
+        observer.observe(elementoHtml)
+      })
+})
+
+
