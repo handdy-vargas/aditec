@@ -611,27 +611,77 @@ nav ul li:hover ul
   padding-right: 35px;
   padding-left: 35px;
 }
-/* Testimonios 
+/* Testimonios */
+.cont6
+{
+  width: 100%;
+  padding-bottom: 5%;
+  punto 
+  background: rgba(247,247,247,1);
+  background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e6e6e6', GradientType=1 )
+}
+.test-Carousel
+{
+  width: 50%;
+  margin-left: 25%;
+}
+.texto-testim
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 145.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
+.carousel-item
+{
+  background: #FFFFFF;
+  border-radius: 7px;  
+  padding: 5%;
+}
 .tituloTestimonios
 {
-  font-size: 40px;
-  margin-bottom: 40px;
-  color: aqua;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+  margin-bottom: 5%;
 }
-.subtituloTestimonios
+.carousel-inner .carousel-item .img-box
 {
-  margin:0;
-  color: #3b3bdd;
-  display: inline;
-  font-size: 30px;
-  font-weight: 500;
-  text-transform: uppercase;
+  width: 135px;
+  height: 135px;
 }
-.sabor
+.carousel-control-prev-icon
 {
-  color: green;
-  margin: 7px 0;
-  font-size: 20px;
-  margin-top: 0;
-}*/
+  width: 35px;
+  height: 35px;
+}
+.carousel-control-next-icon
+{
+  width: 35px;
+  height: 35px;
+}
+.carousel-control-prev
+{
+  left: -150px;
+}
+.carousel-control-next
+{
+  right: -150px;
+}
+.carousel-indicators
+{
+  top:430px;
+}
 } 

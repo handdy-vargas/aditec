@@ -211,21 +211,52 @@
   </div>
 
   <!-- Testimonios -->
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <h1 class="center-align tituloTestimonios">Testimonios</h1>
-        <div class="carousel center-align">
-            <div class="carousel-item">
-              <h2 class="subtituloTestimonios">Subtitulo</h2>
-              <p class="sabor">Lorem ipsum.</p>
-              <img src="images/botonprod1.jpg" alt="">
+  <div class="container-fluid cont6">
+    <h1 class="text-center tituloTestimonios">Testimonios</h1>
+    <div class="row test-Carousel">
+      <div class="col">
+        <!-- Carousel begins -->
+        <div class="carousel slide" id="my-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0"></li>
+            <li data-target="#my-carousel" data-slide-to="1" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- Slide1 -->
+            <div class="carousel-item text-center">
+              <div class="img-box border rounded-circle m-auto">
+                <img src="images/logoTest1.png" class="d-block w-100 rounded-circle" alt="Testimonios">
+              </div>
+              <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Nombre empresa</strong></h5>
+              <p class="pt-3 texto-testim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima molestias veniam necessitatibus facere sit, repudiandae, odit exercitationem aliquid repellat iste labore modi ipsam nulla quae cupiditate quia cum ullam?</p>
             </div>
-            <div class="carousel-item">
-              <h2 class="subtitulo">Subtitulo</h2>
-              <p class="sabor">Lorem ipsum.</p>
-              <img src="images/botonprod2.jpg" alt="">
+            <!-- Slide2 active by default -->
+            <div class="carousel-item text-center active">
+              <div class="img-box border rounded-circle m-auto">
+                <img src="images/logoTest2.jpg" class="d-block w-100 rounded-circle" alt="Testimonios">
+              </div>
+              <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Nombre empresa</strong></h5>
+              <p class="pt-3 texto-testim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima molestias veniam necessitatibus facere sit, repudiandae, odit exercitationem aliquid repellat iste labore modi ipsam nulla quae cupiditate quia cum ullam?</p>
             </div>
+             <!-- Slide3  -->
+            <div class="carousel-item text-center">
+              <div class="img-box border rounded-circle m-auto">
+                <img src="images/logoTest3.jpg" class="d-block w-100 rounded-circle" alt="Testimonios">
+              </div>
+              <h5 class="py-1 my-1"><strong class="text-warning text-uppercase">Nombre empresa</strong></h5>
+              <p class="pt-3 texto-testim">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam minima molestias veniam necessitatibus facere sit, repudiandae, odit exercitationem aliquid repellat iste labore modi ipsam nulla quae cupiditate quia cum ullam?</p>
+            </div>  
+          </div>
+        <!-- Carousel controls -->
+          <a href="#my-carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a href="#my-carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>        
     </div>
