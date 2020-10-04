@@ -6,9 +6,8 @@ Tablet               ≥768px
 Medium Desktops      ≥992px
 Large Desktops       ≥1200px*/
 
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 html
 {
@@ -40,6 +39,10 @@ ul, li
 {
   margin: 0%;
   padding: 0%;
+}
+a:link, a:visited, a:active 
+{
+  text-decoration:none;
 }
 /* Menu */
 header
@@ -509,15 +512,31 @@ nav ul li:hover ul
 }
 .titul-cont2
 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
   width: 40%;
   margin-left: 30%;
   text-align: center;
 }
 .texto-cont2
 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
   width: 50%;
   margin-left: 25%;
-  text-align: center;
+  margin-bottom: 3%;
 }
 .row-btnProd
 {
@@ -531,30 +550,39 @@ nav ul li:hover ul
   left: 0;
   color: green;
 }
-
 /* Contador */
 .cont3
 {
-  height: 550px;
-  background-color: lightgrey;
+  height: 240px;
+  background-color: #EDECF1;
 }
 .contador
 {
   width: 20%;
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 3%;
 }
 .contador_cantidad
 {
-  font-size: 90px;
-  color: #0000FF;
-  font-weight: 900;
-}
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #33A7C8;
+  }
 .tituloContador
 {
-  color: #3b3bdd;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #33A7C8;
 }
 @keyframes aparecer
 {
@@ -577,7 +605,6 @@ nav ul li:hover ul
 {
   animation: aparecer 1.3s;
 }
-
 /* Servicios */
 .cont4
 {
@@ -592,14 +619,50 @@ nav ul li:hover ul
 {
   width: 35%;
   height: 350px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background: #EDECF1;
+  box-shadow: 0px 14px 29px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
   overflow: hidden;
   margin: 20px;
+  padding-top: 2%;
+  padding-right: 3%;
+  padding-left: 3%;
   text-align: center;
   transition: all 0.25s;
 }
-
+.logosServicios 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logosServicios li
+{
+  display: inline-block;
+  margin: 0 15px;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.cont4 .cardServ h2
+{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 145.69%;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
+.cont4 .cardServ p
+{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145.69%;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
 .cont4:hover .cardServ
 {
   filter: blur(2px);
@@ -607,31 +670,85 @@ nav ul li:hover ul
 .cont4 .cardServ:hover
 {
   transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-  background-color: royalblue;
+  background: #33A7C8;
+  box-shadow: 0px 14px 40px 3px rgba(49, 143, 194, 0.45);
+  border-radius: 7px;
   filter: none;
 }
-.cont4 .cardServ h2
+.cont4 .cardServ:hover h2
 {
-  padding-top: 50px;
+  color: #ffffff;
 }
-.cont4 .cardServ p
+.cont4 .cardServ:hover p
 {
-  padding-top: 35px;
-  padding-right: 35px;
-  padding-left: 35px;
+  color: #ffffff;
 }
+/* Representaciones */
+.cont5
+{
+  width: 100%;
+}
+.titul-cont5
+{
+  width: 50%;
+  margin-left: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+}
+.texto-cont5
+{
+  width: 60%;
+  margin-left: 20%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
+
 /* Testimonios */
 .cont6
 {
   width: 100%;
   padding-bottom: 5%;
-  background: rgba(247,247,247,1);
-  background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
-  background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
-  background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
-  background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
-  background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
+}
+.titul-cont6
+{
+  width: 50%;
+  margin-left: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+}
+.texto-cont6
+{
+  width: 60%;
+  margin-left: 20%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
 }
 .test-Carousel
 {
@@ -750,6 +867,5 @@ nav ul li:hover ul
   margin: 0 55px;
   text-align: center;
   color: #ffffff;
-  cursor: pointer;
 }
 } 
