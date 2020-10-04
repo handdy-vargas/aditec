@@ -516,7 +516,6 @@ nav ul li:hover ul
   background: white;
   position: absolute;
 }
-
 /* PRODUCTOS */
 .cont2
 {
@@ -1375,11 +1374,15 @@ nav ul li:hover ul
   align-items: center;
   justify-content: center;
 }
-.mapa-web ul li
+.mapa-web ul li a
 {
   display: inline-block;
-  margin: 0 55px;
+  margin: 0 25px;
   text-align: center;
   color: #ffffff;
+}
+.mapa-web ul li a:hover
+{
+  color: blue;
 }
 } 
