@@ -36,7 +36,11 @@ body
   margin: 0%;
   padding: 0%;
 }
-
+ul, li
+{
+  margin: 0%;
+  padding: 0%;
+}
 /* Menu */
 header
 {
@@ -595,11 +599,17 @@ nav ul li:hover ul
   text-align: center;
   transition: all 0.25s;
 }
+
+.cont4:hover .cardServ
+{
+  filter: blur(2px);
+}
 .cont4 .cardServ:hover
 {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
   background-color: royalblue;
+  filter: none;
 }
 .cont4 .cardServ h2
 {
@@ -616,14 +626,12 @@ nav ul li:hover ul
 {
   width: 100%;
   padding-bottom: 5%;
-  punto 
   background: rgba(247,247,247,1);
   background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
   background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
   background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
   background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
   background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 30%, rgba(235,235,235,1) 53%, rgba(231,231,231,1) 94%, rgba(230,230,230,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e6e6e6', GradientType=1 )
 }
 .test-Carousel
 {
@@ -642,7 +650,8 @@ nav ul li:hover ul
 }
 .carousel-item
 {
-  background: #FFFFFF;
+  background: #EDECF1;
+  box-shadow: 0px 14px 29px 3px rgba(0, 0, 0, 0.1);
   border-radius: 7px;  
   padding: 5%;
 }
@@ -683,5 +692,64 @@ nav ul li:hover ul
 .carousel-indicators
 {
   top:430px;
+}
+
+/* FOOTER */
+.cont7
+{
+  width: 100%;
+  height: 180px;
+  background: #33A7C8;
+}
+.logo-footer
+{
+  margin-top: 3%;
+  text-align: center;
+}
+.fab
+{
+  color: #ffffff;
+}
+.rrss
+{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rrss ul li
+{
+  display: inline-block;
+  margin: 0 5px;
+  text-align: center;
+}
+.rrss ul li a
+{
+  display: block;
+  transition: 0.2s;
+}
+.rrss ul:hover a
+{
+  filter: blur(2px);
+}
+.rrss ul li a:hover
+{
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+.mapa-web
+{
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapa-web ul li
+{
+  display: inline-block;
+  margin: 0 55px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
 }
 } 
