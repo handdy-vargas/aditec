@@ -255,7 +255,50 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 }    
 /* Fin search box*/
 
-/*Slider*/
+/* Movil */
+@media (max-width: 768px)
+{
+header
+{
+  position: relative;
+  z-index: 99;
+}
+header label
+{
+  display: block;
+}
+nav
+{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 30%;
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+nav ul
+{
+  display: block;
+}
+nav ul li a
+{
+  color: black;
+  border-top: none;
+}
+nav ul li a:hover
+{
+  border-top: none;
+}
+nav ul li:hover ul
+{
+  display: none;
+}
+#btn-menu:checked ~ nav
+{
+  transform: translateX(0%);
+}
+
+/* Slider */
 .slide-row-height
 {
   height: 100%;
@@ -287,15 +330,36 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   }
 }
 .text-box
-{
-  width: 30%;
-  position: absolute;
-  top: 44%;
-  left: 15%;
-  color: white;
-  animation: textup 12s linear infinite;
-  transform: translateY(100px);
-}
+  {
+    width: 40%;
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+  }
+  .text-box h1
+  {
+     font-size: 60px;
+  }
+  .text-box p
+  {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 159.69%;
+    letter-spacing: 0.075em;
+    color: #006699;
+  }
+  .text-box span
+  {
+    background-color: #EF4054;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+  }
 @keyframes textup
 {
   10%
@@ -322,25 +386,6 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 .text-box4
 {
   animation-delay: 9s;
-}
-.text-box h1
-{
-   margin-bottom: 50px;
-   font-size: 60px;
-}
-.text-box p
-{
-  font-size: 16px;
-  line-height: 18px;
-  margin-top: 90px;
-}
-.text-box span
-{
-  background-color: #0000FF;
-  height: 2px;
-  width: 80px;
-  position: absolute;
-  left: 0;
 }
 .banner1
 {
@@ -450,64 +495,207 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
     visibility: visible;
   }
 }
-
-/* Movil */
-@media (max-width: 768px)
-{
-header
-{
-  position: relative;
-  z-index: 99;
-}
-header label
-{
-  display: block;
-}
-nav
-{
-  position: absolute;
-  top: 60px;
-  right: 0;
-  width: 30%;
-  transform: translateX(100%);
-  transition: all 0.3s;
-}
-nav ul
-{
-  display: block;
-}
-nav ul li a
-{
-  color: black;
-  border-top: none;
-}
-nav ul li a:hover
-{
-  border-top: none;
-}
-nav ul li:hover ul
-{
-  display: none;
-}
-#btn-menu:checked ~ nav
-{
-  transform: translateX(0%);
-}
 } 
 
 /* Pantalla mediana */
 @media (min-width: 768px)
 {
 /* Slider */
-.text-box
+.slide-row-height
 {
-  width: 30%;
+  height: 100%;
+}
+.banner1,.banner2,.banner3,.banner4
+{
+  height: 100%;
+  width: 100%;
   position: absolute;
-  top: 34%;
-  left: 15%;
-  color: white;
-  animation: textup 12s linear infinite;
-  transform: translateY(100px);
+  left:0;
+  top:0;
+}
+.img-slide
+{
+  width: 120%;
+  /* la altura fija hace el zoom feo 
+  height: 100%;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation: zoom-out 3s linear infinite;
+}
+@keyframes zoom-out
+{
+  100%
+  {
+    width: 100%;
+  }
+}
+.text-box
+  {
+    width: 40%;
+    position: absolute;
+    top: 34%;
+    left: 15%;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+  }
+  .text-box h1
+  {
+     font-size: 60px;
+  }
+  .text-box p
+  {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 159.69%;
+    letter-spacing: 0.075em;
+    color: #006699;
+  }
+  .text-box span
+  {
+    background-color: #EF4054;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+  }
+@keyframes textup
+{
+  10%
+  {
+    transform: translateY(0px);
+  }
+  100%
+  {
+    transform: translateY(0px);
+  }
+}
+.text-box1
+{
+  animation-delay: 0s;
+}
+.text-box2
+{
+  animation-delay: 3s;
+}
+.text-box3
+{
+  animation-delay: 6s;
+}
+.text-box4
+{
+  animation-delay: 9s;
+}
+.banner1
+{
+  animation: slide1 12s linear infinite;
+}
+.banner2
+{
+  animation: slide2 12s linear infinite;
+}
+.banner3
+{
+  animation: slide3 12s linear infinite;
+}
+.banner4
+{
+  animation: slide4 12s linear infinite;
+}
+@keyframes slide1
+{
+  0%
+  {
+    visibility: visible;
+  }
+  25%
+  {
+    visibility: hidden;
+  }
+  50%
+  {
+    visibility: hidden;
+  }
+  75%
+  {
+    visibility: hidden;
+  }
+  100%
+  {
+    visibility: visible;
+  }
+}
+@keyframes slide2
+{
+  0%
+  {
+    visibility: hidden;
+  }
+  25%
+  {
+    visibility: hidden;
+  }
+  50%
+  {
+    visibility: visible;
+  }
+  75%
+  {
+    visibility: hidden;
+  }
+  100%
+  {
+    visibility: hidden;
+  }
+}
+@keyframes slide3
+{
+  0%
+  {
+    visibility: hidden;
+  }
+  25%
+  {
+    visibility: hidden;
+  }
+  50%
+  {
+    visibility: hidden;
+  }
+  75%
+  {
+    visibility: visible;
+  }
+  100%
+  {
+    visibility: hidden;
+  }
+}
+@keyframes slide4
+{
+  0%
+  {
+    visibility: hidden;
+  }
+  25%
+  {
+    visibility: hidden;
+  }
+  50%
+  {
+    visibility: hidden;
+  }
+  75%
+  {
+    visibility: hidden;
+  }
+  100%
+  {
+    visibility: visible;
+  }
 }
 .rectangulo
 {
@@ -557,23 +745,16 @@ nav ul li:hover ul
 {
   text-align: center;
 }
-.titulo-btn-productos
-{
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: green;
-}
 .nosProd
 {
   width: 100%;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  letter-spacing: 0.075em;
-  color: white;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
   position: absolute;
   top: 0;
   left: 0;
@@ -947,6 +1128,205 @@ nav ul li:hover ul
 /* Pantalla grande */
 @media (min-width: 1400px)
 {
+  /* Slider pantalla gde */
+  .slide-row-height
+  {
+    height: 100%;
+  }
+  .banner1,.banner2,.banner3,.banner4
+  {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+  }
+  .img-slide
+  {
+    width: 120%;
+    /* la altura fija hace el zoom feo 
+    height: 100%;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: zoom-out 3s linear infinite;
+  }
+  @keyframes zoom-out
+  {
+    100%
+    {
+      width: 100%;
+    }
+  }
+  .text-box
+  {
+    width: 40%;
+    position: absolute;
+    top: 44%;
+    left: 15%;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+  }
+  .text-box img
+  {
+    margin-top: 35%;
+  }
+  .text-box p
+  {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 159.69%;
+    letter-spacing: 0.075em;
+    color: #006699;
+  }
+  .text-box span
+  {
+    background-color: #EF4054;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: rotate(90deg);
+  }
+  @keyframes textup
+  {
+    10%
+    {
+      transform: translateY(0px);
+    }
+    100%
+    {
+      transform: translateY(0px);
+    }
+  }
+  .text-box1
+  {
+    animation-delay: 0s;
+  }
+  .text-box2
+  {
+    animation-delay: 3s;
+  }
+  .text-box3
+  {
+    animation-delay: 6s;
+  }
+  .text-box4
+  {
+    animation-delay: 9s;
+  }
+  .banner1
+  {
+    animation: slide1 12s linear infinite;
+  }
+  .banner2
+  {
+    animation: slide2 12s linear infinite;
+  }
+  .banner3
+  {
+    animation: slide3 12s linear infinite;
+  }
+  .banner4
+  {
+    animation: slide4 12s linear infinite;
+  }
+  @keyframes slide1
+  {
+    0%
+    {
+      visibility: visible;
+    }
+    25%
+    {
+      visibility: hidden;
+    }
+    50%
+    {
+      visibility: hidden;
+    }
+    75%
+    {
+      visibility: hidden;
+    }
+    100%
+    {
+      visibility: visible;
+    }
+  }
+  @keyframes slide2
+  {
+    0%
+    {
+      visibility: hidden;
+    }
+    25%
+    {
+      visibility: hidden;
+    }
+    50%
+    {
+      visibility: visible;
+    }
+    75%
+    {
+      visibility: hidden;
+    }
+    100%
+    {
+      visibility: hidden;
+    }
+  }
+  @keyframes slide3
+  {
+    0%
+    {
+      visibility: hidden;
+    }
+    25%
+    {
+      visibility: hidden;
+    }
+    50%
+    {
+      visibility: hidden;
+    }
+    75%
+    {
+      visibility: visible;
+    }
+    100%
+    {
+      visibility: hidden;
+    }
+  }
+  @keyframes slide4
+  {
+    0%
+    {
+      visibility: hidden;
+    }
+    25%
+    {
+      visibility: hidden;
+    }
+    50%
+    {
+      visibility: hidden;
+    }
+    75%
+    {
+      visibility: hidden;
+    }
+    100%
+    {
+      visibility: visible;
+    }
+  }
 .rectangulo
 {
   width: 100%;
@@ -995,28 +1375,21 @@ nav ul li:hover ul
 {
   text-align: center;
 }
-.titulo-btn-productos
-{
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: green;
-}
 .nosProd
 {
   width: 60%;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  letter-spacing: 0.075em;
-  color: white;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
   position: absolute;
   top: 0;
   left: 0;
   margin-left: 20%;
-  margin-top: 45%;
+  margin-top: 49%;
 }
 .contenedor
 {
@@ -1026,7 +1399,8 @@ nav ul li:hover ul
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-  letter-spacing: 0.075em;
+  text-align: center;
+  letter-spacing: 0.07em;
   color: white;
   position: absolute;
   top: 0;
@@ -1034,7 +1408,7 @@ nav ul li:hover ul
   right: 0;
   left: 0;
   margin: auto;
-  margin-top: 55%;
+  margin-top: 56%;
   overflow: hidden;
 }
 .contenedor ul
