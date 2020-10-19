@@ -670,12 +670,11 @@ nav ul li:hover ul
 .cont6
 {
   width: 100%;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 15%;
-  background-image: url(../images/testimoniosbckg.png);
+  background-image: url(../images/testimoniosbckg-mov.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 .titul-cont6
 {
@@ -707,14 +706,14 @@ nav ul li:hover ul
 }
 .test-Carousel
 {
-  width: 50%;
-  margin-left: 25%;
+  width: 90%;
+  margin-left: 5%;
 }
 .texto-testim
 {
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 145.69%;
   text-align: center;
   letter-spacing: 0.075em;
@@ -726,11 +725,12 @@ nav ul li:hover ul
   background: rgba(255, 255, 255, 0.2);
   /* box-shadow: 0px 14px 29px 3px rgba(0, 0, 0, 0.2); */
   border-radius: 7px; 
+  margin-top: 10%;
 }
 .carousel-inner .carousel-item .img-box
 {
-  width: 135px;
-  height: 135px;
+  width: 100px;
+  height: 100px;
 }
 .carousel-control-prev-icon
 {
@@ -752,7 +752,7 @@ nav ul li:hover ul
 }
 .carousel-indicators
 {
-  top:450px;
+  top:300px;
 }
 .carousel-indicators li
 {
@@ -2056,7 +2056,7 @@ nav ul li:hover ul
 .cont6
 {
   width: 100%;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 15%;
   background-image: url(../images/testimoniosbckg.png);
   background-repeat: no-repeat;
