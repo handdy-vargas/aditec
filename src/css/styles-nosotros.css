@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Celular           <768px
+Tablet               ≥768px
+Medium Desktops      ≥992px
+Large Desktops       ≥1200px*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html
+{
+  height: 100%;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container-fluid
+{
+  margin: 0px;
+  padding: 0px;
+}
+.row
+{
+  margin: 0%;
+  padding: 0%;
+}
+.col
+{
+  margin: 0%;
+  padding: 0%;
+}
+ul, li, h1, p
+{
+  margin: 0%;
+  padding: 0%;
+}
+/* Movil */
+@media (max-width: 768px)
+{}
+
+/* Pantalla mediana */
+@media (min-width: 768px)
+{}
+
+/* Pantalla grande */
+@media (min-width: 1400px)
+{
+.anchopant
+{
+  width: 100%;
+}
+/*Banner inicial*/
+.contNos1
+{
+    position: relative; 
+    z-index: -99;
+    width: 100%;
+}
+.titulo-nosotros1
+{
+    position: absolute;
+    width: 80%;
+    top:0;
+    left:0;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    line-height: 213.69%;
+    font-weight: 300;
+    font-size: 64px;
+    color: grey;
+    text-align: center;
+}
+.texto-nosotros1
+{
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 16%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 213.69%;
+    font-size: 18px;
+    text-align: justify;
+    color: grey;
+    text-align: center;
+}
+}
