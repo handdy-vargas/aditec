@@ -816,7 +816,7 @@ nav ul li:hover ul
 }
 .mapa-web ul li a:hover
 {
-  color: blue;
+  color:#0D273E;
 }
 } 
 
@@ -1291,11 +1291,12 @@ nav ul li:hover ul
 {
   color: #ffffff;
 }
-
 /* Representaciones pantalla med*/
 .cont5
 {
   width: 100%;
+  background-color: #F8F7FB;
+  padding-bottom: 5%;
 }
 .titul-cont5
 {
@@ -1322,17 +1323,81 @@ nav ul li:hover ul
   letter-spacing: 0.075em;
   color: #0D273E;
 }
-
+.repres-carn-borde
+{
+  width:60%;
+  border: 1px solid #EF4155;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.repres-carn-titulo
+{
+  text-align: center; 
+  width: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #EF4155;
+}
+.repres-pan-borde
+{ 
+  width:60%;
+  border: 1px solid #F57E22;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.repres-pan-titulo
+{
+  text-align: center; 
+  width: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #F57E22;
+}
+.repres-hel-borde
+{ 
+  width:60%;
+  border: 1px solid #CD88EB;
+  box-sizing: border-box;
+  border-radius: 11px;
+}
+.repres-hel-titulo
+{
+  text-align: center; 
+  width: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #CD88EB;
+}
+.row-repres
+{
+  margin-top: 5%;
+}
+.repres-item  
+{
+  background: none!important;
+}
 /* Testimonios pantalla med */
 .cont6
 {
   width: 100%;
-  padding-bottom: 5%;
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(51,167,200,1) 100%);
+  padding-top: 5%;
+  padding-bottom: 15%;
+  background-image: url(../images/testimoniosbckg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .titul-cont6
 {
@@ -1351,6 +1416,7 @@ nav ul li:hover ul
 {
   width: 60%;
   margin-left: 20%;
+  margin-bottom: 5%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: normal;
   font-size: 16px;
@@ -1376,21 +1442,10 @@ nav ul li:hover ul
 }
 .carousel-item
 {
-  background: #EDECF1;
-  box-shadow: 0px 14px 29px 3px rgba(0, 0, 0, 0.1);
-  border-radius: 7px;  
-  padding: 5%;
-}
-.tituloTestimonios
-{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 54px;
-  line-height: 63px;
-  text-align: center;
-  letter-spacing: 0.075em;
-  color: #006699;
-  margin-bottom: 5%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0px 14px 29px 3px rgba(0, 0, 0, 0.2); */
+  border-radius: 7px; 
 }
 .carousel-inner .carousel-item .img-box
 {
@@ -1417,8 +1472,14 @@ nav ul li:hover ul
 }
 .carousel-indicators
 {
-  top:400px;
+  top:450px;
 }
+.carousel-indicators li
+{
+  top:550px;
+  background-color: #0D273E;
+}
+
 /* FOOTER pantalla med*/
 .cont7
 {
@@ -1472,9 +1533,17 @@ nav ul li:hover ul
 .mapa-web ul li
 {
   display: inline-block;
-  margin: 0 40px;
+  text-align: center;
+}
+.mapa-web ul li a
+{
+  margin: 0 25px;
   text-align: center;
   color: #ffffff;
+}
+.mapa-web ul li a:hover
+{
+  color: #0D273E;
 }
 } 
 
@@ -1954,7 +2023,6 @@ nav ul li:hover ul
 {
   color: #ffffff;
 }
-
 /* Representaciones pantalla gde*/
 .cont5
 {
@@ -2194,15 +2262,19 @@ nav ul li:hover ul
   align-items: center;
   justify-content: center;
 }
-.mapa-web ul li a
+.mapa-web ul li
 {
   display: inline-block;
-  margin: 0 15px;
+  text-align: center;
+}
+.mapa-web ul li a
+{
+  margin: 0 25px;
   text-align: center;
   color: #ffffff;
 }
 .mapa-web ul li a:hover
 {
-  color: blue;
+  color: #0D273E;
 }
 } 
