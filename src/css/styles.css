@@ -768,19 +768,25 @@ nav ul li:hover ul
 }
 .logo-footer
 {
-  margin-top: 3%;
+  margin-top: 10%;
   text-align: center;
 }
 .fab
 {
   color: #ffffff;
 }
+.fa-2x
+{
+  font-size: 1.2em;
+}
 .rrss
 {
-  margin-top: 3%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 6%;
 }
 .rrss ul li
 {
@@ -791,28 +797,20 @@ nav ul li:hover ul
 .rrss ul li a
 {
   display: block;
-  transition: 0.2s;
-}
-.rrss ul:hover a
-{
-  filter: blur(2px);
-}
-.rrss ul li a:hover
-{
-  transform: translateY(-3px) scale(1.05);
-  filter: none;
 }
 .mapa-web
 {
-  margin-top: 3%;
+  margin-top: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.mapa-web ul li
+{
+  list-style: none;
+}
 .mapa-web ul li a
 {
-  display: inline-block;
-  margin: 0 25px;
   text-align: center;
   color: #ffffff;
 }
@@ -2199,7 +2197,7 @@ nav ul li:hover ul
 .mapa-web ul li a
 {
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 15px;
   text-align: center;
   color: #ffffff;
 }
