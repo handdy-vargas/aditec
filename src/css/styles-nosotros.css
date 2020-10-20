@@ -62,7 +62,7 @@ ul, li, h1, p
     z-index: -99;
     width: 100%;
 }
-.titulo-nosotros1
+.titulo-banner-nosotros1
 {
     position: absolute;
     width: 80%;
@@ -78,7 +78,7 @@ ul, li, h1, p
     color: grey;
     text-align: center;
 }
-.texto-nosotros1
+.texto-banner-nosotros1
 {
     position: absolute;
     width: 80%;
@@ -92,5 +92,37 @@ ul, li, h1, p
     text-align: justify;
     color: grey;
     text-align: center;
+}
+.titulo-nosotros2
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+}
+.texto-nosotros2
+{
+  width: 50%;
+  margin-left: 25%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 145.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E
+}
+.logosNos2 
+{
+  padding-top: 3%!important;
+  padding-bottom: 5%!important;
 }
 }
