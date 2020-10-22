@@ -30,7 +30,7 @@ body
   margin: 0%;
   padding: 0%;
 }
-.col
+.col, .col-6
 {
   margin: 0%;
   padding: 0%;
@@ -107,10 +107,10 @@ ul, li, h1, p
   letter-spacing: 0.075em;
   color: #006699;
 }
-.texto-nosotros2
+.texto-cont2-nosotros
 {
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 20%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -124,5 +124,175 @@ ul, li, h1, p
 {
   padding-top: 3%!important;
   padding-bottom: 5%!important;
+}
+.tipografia-nosotros
+{
+  font-family: 'IBM Plex Sans', sans-serif
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 185.69%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.texto-nosotros1
+{
+  width: 70%;
+  margin-top: 45%;
+  margin-left: 15%;
+}
+.texto-nosotros2
+{
+  width: 80%;
+  margin-top: 35%;
+  margin-left: 10%;
+}
+.texto-nosotros3
+{
+  width: 70%;
+  margin-top: 45%;
+  margin-left: 15%;
+}
+.texto-nosotros4
+{
+  width: 80%;
+  margin-top: 26%;
+  margin-left: 10%;
+}
+.texto-vermas
+{
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#bckg-nostros1 
+{
+  width: 65%;
+  height: 525px;
+  background-image: url(../images/nosotros1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#bckg-nostros1:hover 
+{
+  background-image: url(../images/nosotros1hover.png);
+}
+#bckg-nostros2 
+{
+  width: 65%;
+  height: 525px;
+  background-image: url(../images/nosotros2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#bckg-nostros2:hover 
+{
+  background-image: url(../images/nosotros2hover.png);
+}
+#bckg-nostros3 
+{
+  width: 65%;
+  height: 525px;
+  background-image: url(../images/nosotros3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#bckg-nostros3:hover 
+{
+  background-image: url(../images/nosotros3hover.png);
+}
+#bckg-nostros4 
+{
+  width: 65%;
+  height: 525px;
+  background-image: url(../images/nosotros4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#bckg-nostros4:hover 
+{
+  background-image: url(../images/nosotros4hover.png);
+}
+.contNos4
+{
+  margin-top: 10%!important;
+}
+.texto-misionvision-Nos1
+{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 25%;
+  margin-left: 20%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 208.5%;
+  text-align: center;
+  color: #314F69;
+}
+.texto-misionvision-Nos2
+{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20%;
+  margin-left: 20%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 190.5%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.backgNos5
+{
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/backgNos5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.image-team
+{
+  margin-top: 12%;
+}
+.titulo-team
+{
+  padding-left: 10%;
+  padding-top: 25%;
+  padding-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #006699;
+}
+.texto-team
+{
+  padding-left: 10%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #000000;
 }
 }
