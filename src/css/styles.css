@@ -50,7 +50,8 @@ header
   width: 100%;
   height: 100px;
   z-index: 99;
-  background: rgba(249, 248, 252, 0.5);
+  background: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -93,7 +94,7 @@ nav > ul > li > a
   line-height: 18px;
   text-decoration:none;
   text-decoration:none;
-  border-top: 2px solid #F6F4F4;;
+  border-top: 2px solid #F6F4F4;
 	color:#006699;
 	display:block;
   padding:5px 50px;
@@ -114,45 +115,36 @@ nav ul li div /* caja del submenu productos*/
 {
 	width:auto;
   position: absolute;
-	background:#ccc;
+	background:#FFFFFF;
 	box-sizing:border-box;
   display:none;
   padding: 1%;
   border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 0px solid #000000;
-  -webkit-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5)
 }
 nav ul li .submenu-box /* caja del submenu servicios */
 {
   width: 250px;
   position: absolute;
-	background:#ccc;
+	background:#FFFFFF;
 	box-sizing:border-box;
   display:none;
   border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 0px solid #000000;
-  -webkit-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
-  box-shadow: 1px 1px 9px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5)
 }
 nav ul li div ul /* columnas del submenu productos */
 {
-	width:160px;
+  width:160px;
 	display:table-cell;
-	border-right:1px solid rgba(255,255,255,.5);
+	border-right: 1px solid #125E97;
   box-sizing:border-box;
   text-align: center;
 }
 nav ul li .submenu-box ul li a:hover /* columnas del submenu servicios */
 {
-  border-top: 1px solid #0000FF;
-  color: #0000FF;
+  border-top: 2px solid #006699;
+  color: #006699;
+  text-decoration: none;
 }
 nav ul li div ul:last-child 
 {
@@ -160,21 +152,28 @@ nav ul li div ul:last-child
 }
 nav ul li div ul .titulo /* submenu titulo */
 {
-  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: bold;
+  font-size: 15px;
   line-height: 40px;
+  text-align: center;
+  color: #006699;
 }
 nav ul li div ul li a /* submenu item */
 {
-  color:black;
-  padding: 0%;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 40px;
+  text-align: center;
+  color: #006699;
 }
 nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 {
-  border-top: 1px solid #0000FF;
-  color: #0000FF;
+  border-top: 2px solid #006699;
+  color: #006699;
   text-decoration: none;
 }
 /* Fin menu*/
@@ -183,7 +182,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 .search-box 
 {
   background: none;
-  border: solid 1px #006699;;
+  border: solid 1px #006699;
   display: inline-block;
   position: relative;
   border-radius: 50px;
@@ -247,7 +246,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
   top: 16px;  /* linea \ de la lupa despues del click */
   left:20px;
   height: 15px;
-  border-left: solid 1px #006699;;
+  border-left: solid 1px #006699;
   position: absolute;
   transform: rotate(-45deg);
   z-index: -1;
