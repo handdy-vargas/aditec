@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Celular           <768px
+Tablet               ≥768px
+Medium Desktops      ≥992px
+Large Desktops       ≥1200px*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html
+{
+  height: 100%;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container-fluid
+{
+  margin: 0px;
+  padding: 0px;
+}
+.row
+{
+  margin: 0%;
+  padding: 0%;
+}
+.col, .col-6, .col-md-6 
+{
+  margin: 0%;
+  padding: 0%;
+}
+ul, li, h1, p
+{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Móvil */
+@media (max-width: 768px)
+{
+.anchopant
+{
+  width: 100%;
+}
+}
+/* Pantalla mediana */
+@media (min-width: 768px)
+{
+.anchopant
+{
+  width: 100%;
+}
+.bckg-cont-prod1
+{
+  height: 800px;
+  background: linear-gradient(to top, white 0%, white 50%, #F8F7FB 50%, #F8F7FB 100%);
+}
+.row-prod1
+{
+  padding-top: 16%!important;
+}
+.row-prod2
+{
+  padding-top: 5%!important;
+}
+.titulo-prod1
+{
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+}
+.texto-prod1
+{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 196.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
+.row-prod3
+{
+  height: 90px;
+}
+}
+
+/* Pantalla grande */
+@media (min-width: 1400px)
+{
+.anchopant
+{
+  width: 100%;
+}
+.bckg-cont-prod1
+{
+  height: 800px;
+  background: linear-gradient(to top, white 0%, white 50%, #F8F7FB 50%, #F8F7FB 100%);
+}
+.row-prod1
+{
+  padding-top: 16%!important;
+}
+.row-prod2
+{
+  padding-top: 5%!important;
+}
+.titulo-prod1
+{
+  width: 80%;
+  margin-left: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #006699;
+}
+.texto-prod1
+{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 196.69%;
+  text-align: center;
+  letter-spacing: 0.075em;
+  color: #0D273E;
+}
+.row-prod3
+{
+  height: 90px;
+}
+}
