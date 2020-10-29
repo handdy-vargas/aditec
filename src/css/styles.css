@@ -190,7 +190,7 @@ nav > ul > li > div > ul > li > a:hover /* submenu item hover*/
 .search-box input[type="text"] 
 {
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color:rgba(212, 209, 209, 0);
+  background-color:rgba(255, 255, 255, 0.1);
   font-size: 11px;
   width: 25px;
   height: 25px;
@@ -1911,7 +1911,6 @@ nav ul li:hover ul
 {
   animation: aparecer 1.3s;
 }
-
 /* Servicios pantalla gde*/
 .cont4
 {
@@ -2120,8 +2119,8 @@ nav ul li:hover ul
 .cont6
 {
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 15%;
+  padding-top: 7%;
+  padding-bottom: 17%;
   background-image: url(../images/testimoniosbckg.png);
   background-repeat: no-repeat;
   background-position: center;
