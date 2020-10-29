@@ -37,11 +37,17 @@
       <!-- Estilos -->
       <link rel="stylesheet" href="css/styles-productos.css" type="text/css">
       <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+       <!-- JS -->
+       <script src="js/script-productos.js"></script>
+
     </head>
   
 <!-- Menú -->
 <div class="logo">
-    <img src="images/logo.png" alt="">
+    <a href="index.html">
+        <img src="images/logo.png" alt="Logo Aditec">
+    </a>
 </div>
 <header>
     <input type="checkbox" id="btn-menu">
@@ -122,7 +128,7 @@
             <p class="texto-prod1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dolorem eaque numquam deleniti recusandae natus tempora cupiditate ratione, deserunt, ipsam vel explicabo mollitia et alias non nesciunt facilis. Iure, qui.</p>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid bckg-cont-prod2">
         <div class="row row-prod3 anchopant">
             <div class="col-md-2">
                 <img src="images/dots-productos.png" alt="">
@@ -138,8 +144,8 @@
             </div>
             <div class="col text-center">
                 <a href="">
-                    <img src="images/dots-carn.png" onmouseover="this.src='images/dots-carn-hover.png'" 
-                onmouseout="this.src='images/dots-carn.png'" alt="">
+                    <img src="images/dots-pan.png" onmouseover="this.src='images/dots-pan-hover.png'" 
+                onmouseout="this.src='images/dots-pan.png'" alt="">
                 </a>
             </div>
             <div class="col-md-2">
@@ -147,8 +153,8 @@
             </div>
             <div class="col text-center">
                 <a href="">
-                    <img src="images/dots-carn.png" onmouseover="this.src='images/dots-carn-hover.png'" 
-                onmouseout="this.src='images/dots-carn.png'" alt="">
+                    <img src="images/dots-hel.png" onmouseover="this.src='images/dots-hel-hover.png'" 
+                onmouseout="this.src='images/dots-hel.png'" alt="">
                 </a>
             </div>
             <div class="col-md-2">
@@ -156,12 +162,50 @@
             </div>
             <div class="col text-center">
                 <a href="">
-                    <img src="images/dots-carn.png" onmouseover="this.src='images/dots-carn-hover.png'" 
-                onmouseout="this.src='images/dots-carn.png'" alt="">
+                    <img src="images/dots-tec.png" onmouseover="this.src='images/dots-tec-hover.png'" 
+                onmouseout="this.src='images/dots-tec.png'" alt="">
                 </a>
             </div>
             <div class="col-md-2">
                 <img src="images/dots-productos.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bckg-cont-prod2">
+        <div class="row">
+            <div class="wrap">
+                <ul class="tabs">
+                    <li><a href="#tab1"><span class="tab-text">Aditivos</span></a></li>
+                    <li><a href="#tab2"><span class="tab-text">Insumos</span></a></li>
+                    <li><a href="#tab3"><span class="tab-text">Máquinas</span></a></li>
+                </ul>
+                <div class="secciones">
+                    <article id="tab1">
+                        <p>Aditivos ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt nostrum culpa deserunt iusto voluptatum reiciendis alias, rem ut temporibus fuga necessitatibus! At illo temporibus fugiat tempore error esse voluptatibus!</p>
+                    </article>
+                    <article id="tab2">
+                        <div class="row">
+                            <div class="col-10">
+                                <img class="prod-img" src="images/prod-tripas.jpg" alt="Tripas">
+                            </div>
+                            <div class="col-2">
+                                <ul class="btn-prod">
+                                    <li class="active-btn-prod"><a href="#">Tripas</a></li>
+                                    <li><a href="#">Bolsas para envasado</a></li>
+                                    <li><a href="#">Termómetros</a></li>
+                                    <li><a href="#">Carros</a></li>
+                                    <li><a href="#">Cuchillos</a></li>
+                                    <li><a href="#">Mandiles</a></li>
+                                    <li><a href="#">Moldes</a></li>
+                                    <li><a href="#">Ganchos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="tab3">
+                        <p>Máquinas ipsum dolor sit amet consectetur adipisicing elit. Dolor sunt nostrum culpa deserunt iusto voluptatum reiciendis alias, rem ut temporibus fuga necessitatibus! At illo temporibus fugiat tempore error esse voluptatibus!</p>
+                    </article>
+                </div>
             </div>
         </div>
     </div>
@@ -195,6 +239,6 @@
     </footer>
     
     <!-- Js main -->
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
