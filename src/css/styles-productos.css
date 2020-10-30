@@ -358,19 +358,38 @@ ul.btn-prod li a
 }
 .prod-img
 {
-  width: 30%;
-  margin-left: 35%;
+  width: 50%;
+  margin-left: 25%;
+}
+.titulo_insumos
+{
+  padding-bottom: 2%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #33A7C8;
+}
+.linea_insumos
+{
+  background-color: #33A7C8;
+  height: 1px;
+  width: 24px;
+  position: absolute;
 }
 .texto_insumos
 {
   width: 90%;
+  padding-top: 2%;
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  text-align: justify;
-  letter-spacing: 0.075em;
-  color: #0D273E;
+  font-size: 12px;
+  line-height: 239.19%;
+  color: #000000;
 }
 .img_aditivos
 {
