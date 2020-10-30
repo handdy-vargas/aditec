@@ -1579,36 +1579,44 @@ nav ul li:hover ul
   }
   .text-box
   {
-    width: 55%;
+    width:50%;
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 35%;
+    left: 25%;
+    color: white;
     animation: textup 12s linear infinite;
     transform: translateY(100px);
+    text-align: center;
   }
-  .text-box img
+  .text-box h1
   {
-    margin-top: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 116.69%;
+    text-align: center;
+    letter-spacing: 0.075em;
+  }
+  .text-box span
+  {
+    background-color: white;
+    height: 2px;
+    width: 170px;
+    position: absolute;
+    left: 41%;
   }
   .text-box p
   {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 159.69%;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 116.69%;
+    text-align: center;
     letter-spacing: 0.075em;
-    color: #006699;
-  }
-  .text-box span
-  {
-    background-color: #EF4054;
-    height: 2px;
-    width: 80px;
-    position: absolute;
-    left: 0;
-    top: 40%;
-    transform: rotate(90deg);
+    color: #F8FDFF;
+    padding-top: 5%;
   }
   @keyframes textup
   {
