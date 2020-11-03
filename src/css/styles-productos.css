@@ -307,6 +307,10 @@ ul.tabs li a
   display: block;
   padding: 20px 0px;
 }
+ul.tabs li a:hover
+{
+  color:  #33A7C8;
+}
 .active .tab-text
 {
   color:  #33A7C8;
@@ -340,6 +344,11 @@ ul.btn-prod li
   border-left-style: solid;
   border-left-color: #006699;
   text-align: center;
+}
+ul.btn-prod li:hover
+{
+  border-left-style: solid;
+  border-left-color: #33A7C8!important;
 }
 .active-btn-prod
 {
